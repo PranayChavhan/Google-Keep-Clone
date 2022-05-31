@@ -15,7 +15,7 @@ const SideBar = () => {
   return (
     <div>
       <div className=""> 
-      <Link to="/">
+      <Link to="/home">
         <div className={`flex items-center active ? bg-[#41331c] :  rounded-r-full h-12 pl-7 gap-10`}>
           <IconContext.Provider value={{ color: "rgba(241,243,244,0.7)" }}>
             <GoLightBulb size={20}/>
