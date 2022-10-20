@@ -19,9 +19,9 @@ const TopBar = () => {
       <div className="border-b-[1px] border-b-[rgba(241,243,244,0.24)] flex justify-between py-2 px-7">
         <div className="flex items-center gap-5">
           <div className="hidden md:block">
-          <IconContext.Provider value={{ color: "rgba(241,243,244,0.7)" }}>
-            <GiHamburgerMenu size={20} />
-          </IconContext.Provider>
+            <IconContext.Provider value={{ color: "rgba(241,243,244,0.7)" }}>
+              <GiHamburgerMenu size={20} />
+            </IconContext.Provider>
           </div>
           <div className="flex items-center gap-4">
             <img
@@ -49,18 +49,17 @@ const TopBar = () => {
             <FiSettings size={20} />
           </IconContext.Provider>
         </div>
-        
-       
+
         <div className="flex items-center md:gap-5">
           <IconContext.Provider value={{ color: "rgba(241,243,244,0.7)" }}>
             <div className="hidden md:block">
-            <IoApps size={20} />
+              <IoApps size={20} />
             </div>
             <div className="flex items-center gap-4 relative">
               <img
                 className="rounded-full cursor-pointer"
                 src={result.photoURL}
-                alt="Prifile Image"
+                alt="Prifile"
                 width={45}
               />
               <span>{result.name}</span>
